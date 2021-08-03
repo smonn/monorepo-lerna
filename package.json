@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "lerna run dev --parallel --stream"
+    "dev": "lerna run dev --parallel --stream",
+    "build": "lerna run build --stream"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.29.0",
